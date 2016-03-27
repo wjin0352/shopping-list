@@ -169,3 +169,8 @@ div {
     div.description {
       border: none;
     }
+
+  /* CSS For button done */
+    .fin {
+      background-color: rgba(195, 195, 22, 0.26);
+    }
