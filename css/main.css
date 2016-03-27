@@ -109,6 +109,7 @@ div {
     margin: 2% auto 5% auto;
     height: 700px;
     width: 85%;
+    overflow: scroll;
   }
 
   /* input box */
