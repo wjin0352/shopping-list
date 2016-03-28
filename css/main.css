@@ -58,6 +58,16 @@ div {
     border-radius: 10px;
   }
 
+  /* css for main title */
+  .headerTitle {
+    font-size: 2em;
+    padding-left: 1em;
+    border-radius: 10px;
+    border: 0.01em solid grey;
+    width: 25%;
+    display: inline-block;
+  }
+
 /* MAIN CONTENT SECTION */
   /* clear fix for floated elements..refer to clear-fix class above */
   .main-content {
@@ -173,4 +183,13 @@ div {
   /* CSS For button done */
     .fin {
       background-color: rgba(195, 195, 22, 0.26);
+    }
+
+  /* CSS For memo */
+    p.memo {
+      height: 200px;
+      width: 100%;
+      text-align: center;
+      border: 0.01em solid grey;
+      overflow-y: scroll;
     }
